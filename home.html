@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+        <style>
+            body{
+                margin: 0px;
+                margin-top:-21px;
+                background-color: rgb(255, 255, 255);
+            }
+            nav{
+                background-color: rgb(70, 0, 117);
+                height: 80px;
+                padding: 30px 70px 0px 40px;
+                position:relative;
+                top: 20px;
+            }
+            #logo{
+                 float: left;
+            }
+            #menu{
+                float: right;
+                padding-top: 10px;
+                padding-bottom: 20px;
+            }
+            #menu a{
+                text-decoration: none;
+                padding: 5px 20px;
+                font-weight: bold;
+                font-family:monospace;
+                color: aliceblue;
+                padding-right: 10px;
+                font-size: 17px;
+            }
+            #menu a:hover{
+                background-color: brown;
+                color: white;
+                border-radius: 10px;
+            }
+            .sectin{
+                display: block;
+                height: 400px;
+                width: auto;
+                background-color:rgb(70, 0, 117);
+                padding-right: 150px;
+            }
+            #section1{
+                float: left;
+                height: auto;
+                width: 500px;
+                font-size: 40px;
+                font-family: 'Ubuntu', sans-serif;
+                color: aliceblue;
+                line-height: 5px;
+                padding-top: 50px;
+                text-align: center;
+            }
+            #section2{
+                float: right;
+                margin-top: 30px;
+                margin-right: 50px;
+            }
+            button{
+                padding: 10px 20px;
+                background-color: rgb(114, 114, 236);
+                border-radius: 10px;
+                font-family:Georgia;
+                color: aliceblue;
+                font-weight: bold;
+            }
+            .sectin2{
+                display: block;
+                height: 220px;
+                width: auto;
+                background-color: rgb(70, 0, 117);
+            }
+            .sectin3{
+                display: block;
+                height: 330px;
+                width: auto;
+                background-color: rgb(0, 0, 105);
+                padding-top: 100px;
+                padding-left: 70px;
+                padding-right: 50px;
+            }
+            .sec3r{
+                display: inline-block;
+
+            }
+            .sec3r1{
+                display: inline-block;
+                vertical-align: top;
+                width: 830px;
+                text-align: right;
+                font-size: 30px;
+                color: aliceblue;
+                font-family: 'Cinzel', serif;
+            }
+            #sec3r2{
+                font-size: 23px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .sectin4{
+                display: block;
+                padding-top: 50px;
+                padding-left: 80px;
+                height: 400px;
+                width: auto;
+                font-size: 30px;
+                color: aliceblue;
+                background-color:rgb(0, 0, 105) ;
+                font-family: 'Cinzel',serif;
+            }
+            #sec4l1{
+                float: left;
+                width: 550px;
+                font-size: 23px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            #sec4r1{
+                float: right;
+                padding-right: 150px;
+                margin-top: -60px;
+            }
+            .sectin5{
+                display: block;
+                height: 200px;
+                width: auto;
+                background-color: rgb(70, 0, 117);
+            }
+            #sec5r1{
+                float: left;
+                padding-left: 30px;
+                padding-top: 30px;
+            }
+            #sec5r2{
+                padding-top: 10px;
+                margin-left: 500px;
+                color: aliceblue;
+                font-size: 60px;
+                font-family: Cambria, serif;
+                font-weight: bolder;
+                text-decoration: underline 2px solid;
+                text-underline-position: under;
+            }
+            .sectin6{
+                display: block;
+                margin-top: -20px;
+                background-color: rgb(70, 0, 117);
+                height: 320px;
+                width: auto;
+            }
+            #sect6r1{
+                color: aliceblue;
+                padding-left: 80px;
+                padding-top: 30px;
+                font-size: 30px;
+                padding-right: 35px;
+                text-align: center;
+            }
+            .sectin7{
+                display: block;
+                height: 400px;
+                background-color: rgb(255, 255, 255);
+            }
+            #sect7l{
+                padding-left: 130px;
+                font-size: 55px;
+                font-family: Impact, sans-serif;
+            }
+            .sect7l1{
+                float: left;
+
+            }
+            #sect7l2{
+                padding-left: 150px;
+                line-height: 40px;
+                border-width: 5px black solid;
+
+            }
+            .sect7r{
+                float: right;
+                padding-right: 30px;
+                margin-right: 150px;
+                margin-top: -390px;
+            }
+            #but{
+                text-align: right;
+                margin-right: 950px;
+            }
+            .sectin8{
+                display: block;
+                height: 200px;
+                width: auto;
+                background-image: url("wave-3.png");
+                background-size: cover;
+                background-color: rgb(255, 255, 255);
+                
+            }
+            #sect{
+                padding-left: 150px;
+                padding-top: 70px;
+                color: aliceblue;
+                font-size: 30px;
+                line-height: 0px;
+                font-weight: bold;
+            }
+            #sect2{
+                float:right;
+                color: aliceblue;
+                margin-top: -150px;
+                padding-right: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div id='logo'>
+                <a href=""><img src="Design-o-flex/Design-O-Flex Images Round 1/Home/rocket-img.png" height="80px"/></a>
+            </div>
+            <div id='menu'>
+                <a href="">Home</a> 
+                <a href="">About Us</a> 
+                <a href="">Our Work</a> 
+                <a href="">Our Events</a>
+                <a href="">Contact Us</a>
+            </div>
+        </nav>
+        <section class="sectin">
+            <div id="section1">
+                <h1>Zero Bugs Club</h1>
+                <h4>Space Division</h4>
+                <h5>To infinity and beyond !</h5>
+                <button>Get Started</button>
+            </div>
+            <div id="section2">
+                <img src="Design-o-flex/Design-O-Flex Images Round 1/Home/img.png" height="260px">
+            </div>
+        </section>
+        <section class="sectin2">
+            <img src="Design-o-flex/Design-O-Flex Images Round 1/Waves/wave-1.png" width="1263px">
+        </section>
+        <section class="sectin3">
+            <div class="sec3r">
+                <img src="Design-o-flex/Design-O-Flex Images Round 1/About/zbc-logo.png" height="250px">
+            </div>
+            <div class="sec3r1">
+                <h1>About ABZ</h1>
+                <p id="sec3r2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quaerat quo vel numquam natus eos, ullam dignissimos facere officia ut reprehenderit? Accusamus aut repellendus unde ipsa beatae dolorum quisquam magni.</p>
+            </div>
+        </section>
+        <section class="sectin4">
+            <div>
+                <h1>About Space Division</h1>
+                <div id="sec4l1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sit quasi quas, iste fugiat, nam dicta ad similique veritatis quo inventore esse consequuntur veniam porro accusamus asperiores ab a distinctio.</p>
+                </div>
+            </div>
+            <div id="sec4r1">
+                <img src="Design-o-flex/Design-O-Flex Images Round 1/About/img.png" height="250px">
+            </div>
+        </section>
+        <section class="sectin5">
+            <div id="sec5r1">
+                <img src="Design-o-flex/Design-O-Flex Images Round 1/Home/rocket-img.png" height="120px">
+            </div>
+            <div id="sec5r2">
+                <p>Our Work</p>
+            </div>
+        </section>
+        <section class="sectin6">
+            <div id="sect6r1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, delectus quod? Accusamus reprehenderit fuga dolorum ea enim nobis laborum, explicabo omnis? Tempore facilis esse.</p>
+            </div>
+            <img src="Design-o-flex/Design-O-Flex Images Round 1/Waves/wave-1.png" width="1263px">
+        </section>
+        <section class="sectin7">
+            <div>
+                <div id="sect7l">
+                    <p>Get in Touch</p>
+                </div>
+                <div id="sect7l2">
+                    <form>
+                        <input type="name" placeholder="Enter name">
+                        <br/>
+                        <input type="email" placeholder="Enter your email address">
+                        <br/>
+                        <textarea rows="5" placeholder="Enter your message"></textarea>
+                    </form>
+                    <div id="but">
+                        <button>Launch</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sect7r">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14030.943325469247!2d77.52754575!3d28.457378699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1644011195993!5m2!1sen!2sin" width="400px" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        <section class="sectin8">
+            <div id="sect">
+                <p>To Infinity and</p>
+                <br/>
+                <p>Beyond !</p>
+            </div>
+            <div id="sect2">
+                <h1>Mail us</h1>
+                <p>ZBC@space.com</p>
+                <a href=""><img src="Design-o-flex/Design-O-Flex Images Round 1/Social media/instagram.png" height="50px"></a>
+                <a href=""><img src="Design-O-Flex/Design-O-Flex Images Round 1/Social media/reddit.png" height="50px"></a>
+                <a href=""><img src="Design-o-flex/Design-O-Flex Images Round 1/Social media/snapchat.png" height="50px"></a>
+                <a href=""><img src="Design-o-flex/Design-O-Flex Images Round 1/Social media/youtube.png" height="50px"></a>
+            </div>
+        </section>
+    </body>
+</html>
